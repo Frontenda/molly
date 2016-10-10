@@ -29,7 +29,7 @@ function resizeHandler(e) {
 	setTops();
 }
 function nextMolly(num) {
-	document.querySelector('.icon').src = '/ui/assets/images/molly' + num + '.png';
+	document.querySelector('.icon').src = 'ui/assets/images/molly' + num + '.png';
 	document.querySelector('.type').innerHTML = mollys[num-1]
 }
 var i=1;
