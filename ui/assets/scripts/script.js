@@ -39,7 +39,7 @@ setInterval(
 		i++;
 		nextMolly(i)
 		if (i == mollys.length) {
-			i = 1;
+			i = 0;
 		}
 	}
 
