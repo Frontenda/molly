@@ -59,7 +59,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0.5em 0;
 }
 mark {
   background: #ff0;
@@ -2257,6 +2257,9 @@ th {
 .m-l--1 {
   margin-left: -1rem !important;
 }
+.m-l--1vw {
+  margin-left: -1vw !important;
+}
 .m-l--2 {
   margin-left: -2rem !important;
 }
@@ -2587,6 +2590,9 @@ th {
   }
   .ms-m-l--1 {
     margin-left: -1rem !important;
+  }
+  .ms-m-l--1vw {
+    margin-left: -1vw !important;
   }
   .ms-m-l--2 {
     margin-left: -2rem !important;
@@ -2919,6 +2925,9 @@ th {
   }
   .ls-m-l--1 {
     margin-left: -1rem !important;
+  }
+  .ls-m-l--1vw {
+    margin-left: -1vw !important;
   }
   .ls-m-l--2 {
     margin-left: -2rem !important;
@@ -5340,6 +5349,9 @@ th {
 .bg-trans {
   background-color: transparent !important;
 }
+.gray {
+  color: #999;
+}
 .logo {
   font-family: 'icomoon';
   font-size: 3rem;
@@ -5809,9 +5821,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-overflow-scrolling: touch;
   font-weight: 600;
-  background-image: url(../../images/grit-min.png);
+  background-image: url(../../images/texture.jpg);
   background-color: #fff;
-  background-size: 200px 200px;
 }
 .touch {
   -webkit-touch-callout: none;
