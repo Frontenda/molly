@@ -1,0 +1,191 @@
+@import "normalize.less";
+@import "props.less";
+@import "elements.less";
+@import "mixins.less";
+@import "variables.less";
+
+@charset "utf-8";
+/* CSS Document */
+
+/**********       BASE        **********/
+
+
+html{
+  box-sizing: border-box;
+
+  a { color: blue;
+    text-decoration: none;
+    border-bottom: 1px solid @gold;
+    font-size: 1em;
+  }
+  a:focus { outline: thin dotted; }
+  a:hover, a:active { outline: 0;}
+}
+
+body{
+  margin: 0;
+  color: #222;
+  font-family: @headline-font;
+  -webkit-overflow-scrolling: touch;
+  font-weight: 600;
+  background-image: url(../../images/grit-min.png);
+  background-color: #fff;
+  background-size: 200px 200px;
+}
+.touch{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  // outline: 1px solid rgba(100,100,100,.2);
+}
+
+/* ===== Primary Styles ========================================================
+   Author: Nick Jones / The Experiment
+   ========================================================================== */
+
+::selection {
+  background: @bgColor;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.dark{
+  color: @dark;
+}
+.gold{
+  color: @gold;
+}
+.blue{
+  color: @blue;
+}
+.white{
+  color: #fff;
+}
+.red {
+  color: #F05525;
+}
+
+.hr{
+  width: 3vw;
+  border-bottom: 2px solid;
+  position: relative;
+}
+
+.purple-bg {
+  background: purple;
+}
+.gold-bg {
+  background: @gold;
+}
+.white-bg {
+  background: #fff;
+}
+.red-bg {
+  background: tomato;
+}
+.white-bg-70 {
+  background: rgba(255,255,255,.7);
+}
+.blue-bg {
+  background: @dark;
+}
+
+section{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  // border-radius: 50%;
+  transition: .2s;
+  // transform: perspective(1000px) translate3d(0,0,-100px);
+  @media (min-width: 1000px){
+    &:hover {
+
+      // transform: perspective(1000px) translate3d(0,0,0);
+    }
+  }
+  &:nth-of-type(2) {
+
+  }
+}
+.Menu {
+  z-index: 2;
+}
+
+
+@media (min-width: 960px){
+  .ms-dark{
+    color: @dark;
+  }
+  .ms-gold{
+    color: @gold;
+  }
+  .ms-blue{
+    color: @blue;
+  }
+  .ms-white{
+    color: #fff;
+  }
+  .ms-purple-bg {
+    background: purple;
+  }
+  .ms-gold-bg {
+    background: #FFA100;
+  }
+  .ms-white-bg {
+    background: #fff;
+  }
+  .ms-white-bg-70 {
+    background: rgba(255,255,255,.7);
+  }
+  .ms-blue-bg {
+    background: @dark;
+  }
+}
+
+@media (min-width: 1200px){
+  .ls-dark{
+    color: @dark;
+  }
+  .ls-gold{
+    color: @gold;
+  }
+  .ls-blue{
+    color: @blue;
+  }
+  .ls-white{
+    color: #fff;
+  }
+  .ls-purple-bg {
+    background: purple;
+  }
+  .ls-gold-bg {
+    background: #FFA100;
+  }
+  .ls-white-bg {
+    background: #fff;
+  }
+  .ls-white-bg-70 {
+    background: rgba(255,255,255,.7);
+  }
+  .ls-blue-bg {
+    background: @dark;
+  }
+}
