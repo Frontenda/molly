@@ -2260,6 +2260,9 @@ th {
 .m-l--1vw {
   margin-left: -1vw !important;
 }
+.m-l--1o5vw {
+  margin-left: -1.5vw !important;
+}
 .m-l--2 {
   margin-left: -2rem !important;
 }
@@ -2990,7 +2993,6 @@ th {
 .f-s-xxxxl {
   font-size: 15vw !important;
   line-height: 1 !important;
-  margin-left: -10px;
 }
 .f-s-epic {
   font-size: 50rem;
