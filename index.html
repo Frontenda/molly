@@ -6,17 +6,499 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <div class="Container p-4 w-100vw pos-r">
+  <div class="Container p-2 ls-p-4 w-100vw pos-r">
+    <div class="logo w-2rem m-b-5"><img src="ui/assets/images/logo.svg"></div>
     <div class="f-s-xxxxl red m-t--1 m-b-0">
       <h1 class="m-t-0 m-l--1o5vw m-b-0">Molly</h1>
     </div>
-    <h2 class="m-t-1 d-ib">Your Personal A.I. Designer</h2>
-    <div class="molly d-b m-t-8 bd-t pos-r p-t-2">
-      <h3>Human designers in the (feedback) loop.</h3>
+    <h1 class="m-t-1 d-b">Your Personal A.I. Designer</h1>
+
+    <h3 class="m-t-3 bd-t bd-w-3 p-t-05 d-ib m-r-3 red">Purpose</h3>
+    <h3 class="m-t-3 d-ib">To remove all friction from the Grid experience</h3>
+    <div class="molly d-b m-t-8 pos-r p-t-2 f-s-s">
+      <div class="max-w-720px">
+        <h3 class="red bd-t bd-w-3 p-t-05 d-ib">Human designers in the (feedback) loop.</h3>
+        <h1 class="f-s-xl">Designer<br>Guidelines</h1>
+        <p>A set of machine learning classifiers
+          <ul>
+            <li>· Match content to design decisions based on the human designer training Molly.</li>
+            <li>· Human designer trains Molly by rejecting or approving randomly generated site/section layouts.</li>
+          </ul>
+        </p>
+        <p>Harmonies will be automatically generated based on design guidelines set by the human designer.</p>
+      </div>
+      <div class="fx-r w-100p j-c-center fx-w-w ls-fx-w-n m-t-3">
+        <div class="branch fx-b-50p ls-fx-w-w ls-fx-b-25p t-a-c p-v-5 red-bg">
+          <h1 class="white m-b-2">Layouts</h1>
+          <svg class="w-50p" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" preserveAspectRatio>
+            <defs>
+              <clipPath id="clip">
+                <rect x="0" y="0" width="300" height="0">
+                  <animate attributeName="height" to="500" begin="2s" dur="2s" fill="freeze" />
+                </rect>
+              </clipPath>
+            </defs>
+            <defs>
+              <clipPath id="clip">
+                <rect x="0" y="0" width="300" height="0">
+                  <animate attributeName="height" to="500" begin="0s" dur="2s" fill="freeze" />
+                </rect>
+              </clipPath>
+            </defs>
+            <g transform="translate(0,4)" clip-path="url(#clip)">
+              <g transform="translate(150,0)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(100,50)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,100)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(50,100)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,150)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,200)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(250,200)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,250)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(100,300)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="branch fx-b-50p ls-fx-b-25p t-a-c p-v-5 blue-bg">
+          <h1 class="white m-b-2">Colors</h1>
+          <svg class="w-50p" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" preserveAspectRatio>
+            <defs>
+              <clipPath id="clip">
+                <rect x="0" y="0" width="300" height="0">
+                  <animate attributeName="height" to="500" begin="2s" dur="2s" fill="freeze" />
+                </rect>
+              </clipPath>
+            </defs>
+            <g transform="translate(0,4)" clip-path="url(#clip)">
+              <g transform="translate(150,0)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,50)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,100)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(250,100)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,150)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,200)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,250)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,300)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="branch fx-b-50p ls-fx-b-25p t-a-c p-v-5 dark-bg">
+          <h1 class="white m-b-2">Typography</h1>
+          <svg class="w-50p" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" preserveAspectRatio>
+            <defs>
+              <clipPath id="clip">
+                <rect x="0" y="0" width="300" height="0">
+                  <animate attributeName="height" to="500" begin="2s" dur="2s" fill="freeze" />
+                </rect>
+              </clipPath>
+            </defs>
+            <g transform="translate(0,4)" clip-path="url(#clip)">
+              <g transform="translate(150,0)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,50)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,100)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,150)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(100,150)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(250,200)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,250)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(250,300)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="branch fx-b-50p ls-fx-b-25p t-a-c p-v-5 red-bg">
+          <h1 class="white m-b-2">Animation</h1>
+          <svg class="w-50p" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" preserveAspectRatio>
+            <defs>
+              <clipPath id="clip">
+                <rect x="0" y="0" width="300" height="0">
+                  <animate attributeName="height" to="500" begin="2s" dur="2s" fill="freeze" />
+                </rect>
+              </clipPath>
+            </defs>
+            <g transform="translate(0,4)" clip-path="url(#clip)">
+              <g transform="translate(150,0)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="0s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,50)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".3s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(100,100)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".6s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(100,150)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" y1="0">
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin=".9s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,200)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.2s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(150,250)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.5s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+              <g transform="translate(200,300)">
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="-50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" y1="0">
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+                <line stroke-width="4" stroke-linecap="round" stroke="#fff" opacity=".2" x1="0" y1="0">
+                  <animate attributeName="x2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                  <animate attributeName="y2" to="50" begin="1.8s" dur=".3s" fill="freeze" />
+                </line>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
     </div>
-    <div class="molly d-b m-t-8 bd-t pos-r p-t-2">
+    <div class="f-s-s m-t-3 max-w-720px">
+      <p>DS contains a set of renderers that provide a fixed render tree for section & content units. Based on decisions taken by the solver, DS can then assemble a set of render plugins to wrap the content unit & section renderers in.
+      </p>
+      <p>
+      If a designer needs a new plugin, we will develop that plugin for them and add it to the designverse.
+      </p>
+    </div>
+    <div class="molly d-b m-t-8 bd-t bd-w-3 pos-r p-t-2">
       <img src="ui/assets/images/molly.gif" width='50' alt="" class="icon l--05rem pos-r fl-l m-r-1">
-      <h3 class="type m-b-2 pos-r fl-l d-ib m-r-2">Thinking</h3>
+      <h2 class="type m-b-2 pos-r fl-l d-ib m-r-2 m-b-2">Thinking</h2>
     </div>
   </div>
 </body>

@@ -3766,25 +3766,25 @@ th {
 }
 @media (min-width: 1200px) {
   .ls-fx-b-20p {
-    flex-basis: 50% !important;
+    flex-basis: 20% !important;
   }
   .ls-fx-b-25p {
-    flex-basis: 50% !important;
+    flex-basis: 25% !important;
   }
   .ls-fx-b-33p {
-    flex-basis: 50% !important;
+    flex-basis: 33.3333% !important;
   }
   .ls-fx-b-50p {
     flex-basis: 50% !important;
   }
   .ls-fx-b-66p {
-    flex-basis: 50% !important;
+    flex-basis: 66.66666% !important;
   }
   .ls-fx-b-75p {
-    flex-basis: 50% !important;
+    flex-basis: 75% !important;
   }
   .ls-fx-b-80p {
-    flex-basis: 50% !important;
+    flex-basis: 80% !important;
   }
   .ls-fx-b-100p {
     flex-basis: 100% !important;
@@ -5858,13 +5858,13 @@ li {
   padding: 0;
 }
 .dark {
-  color: #0F1E32;
+  color: #271425;
 }
 .gold {
   color: #f9ae68;
 }
 .blue {
-  color: #0844A5;
+  color: #1DB9B1;
 }
 .white {
   color: #fff;
@@ -5893,7 +5893,10 @@ li {
   background: rgba(255, 255, 255, 0.7);
 }
 .blue-bg {
-  background: #0F1E32;
+  background: #1DB9B1;
+}
+.dark-bg {
+  background: #271425;
 }
 section {
   position: relative;
@@ -5906,13 +5909,13 @@ section {
 }
 @media (min-width: 960px) {
   .ms-dark {
-    color: #0F1E32;
+    color: #271425;
   }
   .ms-gold {
     color: #f9ae68;
   }
   .ms-blue {
-    color: #0844A5;
+    color: #1DB9B1;
   }
   .ms-white {
     color: #fff;
@@ -5930,18 +5933,18 @@ section {
     background: rgba(255, 255, 255, 0.7);
   }
   .ms-blue-bg {
-    background: #0F1E32;
+    background: #271425;
   }
 }
 @media (min-width: 1200px) {
   .ls-dark {
-    color: #0F1E32;
+    color: #271425;
   }
   .ls-gold {
     color: #f9ae68;
   }
   .ls-blue {
-    color: #0844A5;
+    color: #1DB9B1;
   }
   .ls-white {
     color: #fff;
@@ -5959,6 +5962,6 @@ section {
     background: rgba(255, 255, 255, 0.7);
   }
   .ls-blue-bg {
-    background: #0F1E32;
+    background: #271425;
   }
 }
