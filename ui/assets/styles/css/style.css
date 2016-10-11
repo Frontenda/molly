@@ -5823,7 +5823,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-overflow-scrolling: touch;
   font-weight: 600;
-  background-image: url(../../images/texture.jpg);
+  background-image: url(../../images/texture.png);
   background-color: #fff;
 }
 .touch {
@@ -5870,7 +5870,7 @@ li {
   color: #fff;
 }
 .red {
-  color: #F05525;
+  color: #EC4349;
 }
 .hr {
   width: 3vw;
@@ -5887,7 +5887,7 @@ li {
   background: #fff;
 }
 .red-bg {
-  background: tomato;
+  background: #EC4349;
 }
 .white-bg-70 {
   background: rgba(255, 255, 255, 0.7);
