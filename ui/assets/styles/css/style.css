@@ -5435,6 +5435,51 @@ section {
 .button:hover {
   opacity: .8;
 }
+.big-molly span {
+  -webkit-transform: perspective(700px) translate3d(0px, 0, 0) rotateY(50deg);
+  -moz-transform: perspective(700px) translate3d(0px, 0, 0) rotateY(50deg);
+  -ms-transform: perspective(700px) translate3d(0px, 0, 0) rotateY(50deg);
+  -o-transform: perspective(700px) translate3d(0px, 0, 0) rotateY(50deg);
+  transform: perspective(700px) translate3d(0px, 0, 0) rotateY(50deg);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transition-timing-function: ease-out-back;
+  -moz-transition-timing-function: ease-out-back;
+  -o-transition-timing-function: ease-out-back;
+  -ms-transition-timing-function: ease-out-back;
+  transition-transition-timing-function: ease-out-back;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  opacity: 0;
+}
+.big-molly span.active {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
 @font-face {
   font-family: 'icomoon';
   src: url('fonts/icomoon.eot?bc4cj7');

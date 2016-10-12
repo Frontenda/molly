@@ -120,6 +120,16 @@ sections[10].querySelector('.submit').addEventListener('click', function(){
 	window.location.reload()
 })
 
+var j=0;
+var spans = document.querySelectorAll('.big-molly span');
+var spanInterval = setInterval(function(){
+	spans[j].classList.add('active');
+	j++
+	if (j > 4) {
+		clearInterval(spanInterval)
+	}
+},100)
+
 function nextMolly(num) {
 	document.querySelector('.icon').src = 'ui/assets/images/molly' + num + '.png';
 	document.querySelector('.type').innerHTML = mollys[num-1]

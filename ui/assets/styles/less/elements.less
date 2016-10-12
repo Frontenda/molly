@@ -23,3 +23,14 @@ section {
 .button:hover {
   opacity: .8;
 }
+
+.big-molly span{
+
+  .transform(perspective(700px) translate3d(0px,0,0) rotateY(50deg));
+  .transition(.5s,ease-out-back,all,.5s);
+  opacity: 0;
+  &.active {
+    opacity: 1;
+    .transform(translate3d(0,0,0));
+  }
+}
